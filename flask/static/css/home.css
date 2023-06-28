@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+    background:#c70101;
+    
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+
+  }
+
+  p {
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .head-tag {
+    margin-left: 10px;
+  }
+
+  .head-tag a {
+    color: white;
+    font-style: inherit;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  

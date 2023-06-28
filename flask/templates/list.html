@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<title>List of Players</title>
+<link rel="stylesheet" href="../static/css/list.css">
+<head>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="../static/img/man.png" width="5%" height="5%">
+            <div class="head-tag">
+              <a href="/">Home</a>
+              <a href="#">About Club</a>
+              <a href="#">Contact Us</a>
+            </div>
+          </div>
+
+    </header>
+
+
+<h1>Manchester United Players List</h1>
+<table border="1px">
+    <thead>
+        <tr>
+            <th>Jersey No.</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+        </tr>
+    </thead>
+    {%for row in sqldata%}
+    <tr>
+        <td>{{row[0]}}</td>
+        <td>{{row[1]}}</td>
+        <td>{{row[2]}}</td>
+        <td>{{row[3]}}</td>
+    </tr>
+    {%endfor%}
+</table>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<title>Manchester United</title>
+<link rel="stylesheet" href="../static/css/player.css">
+<head>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="../static/img/man.png" width="5%" height="5%">
+            <div class="head-tag">
+              <a href="/">Home</a>
+              <a href="#">About Club</a>
+              <a href="#">Contact Us</a>
+            </div>
+          </div>
+
+    </header>
+    
+
+
+<h1>Man Utd Players</h1>
+<h2>Add New Players to the List</h2>
+<form action='/read' method="post">
+    <table>
+        <tr>
+            <td>
+                Jersey No.
+            </td>
+            <td>
+                <input type="number" name="jno">
+            </td>
+        </tr>
+      
+        <tr></tr>
+      
+        <tr>
+            <td>
+                Player Name
+            </td>
+            <td>
+                <input type="text" name="pname">
+            </td>
+        </tr>
+      
+        <tr></tr>
+      
+        <tr>
+            <td>
+                Age
+            </td>
+            <td>
+                <input type="number" name="page">
+            </td>
+        </tr>
+       
+        <tr></tr>
+       
+        <tr>
+            <td>
+                Country
+            </td>
+            <td>
+                <input type="text" name="pcountry">
+                
+            </td>
+        </tr>
+        
+        <tr></tr>
+                        
+        <tr>
+            <td>
+            </td>
+            <td>
+                <input type="submit">
+            </td>
+        </tr>
+    </table>
+    {{msgdata}}
+</form>
+
+</body>
+</html>
